@@ -1,0 +1,18 @@
+<section class="clients is-white has-border-top" style="margin-bottom: 100px;">
+    <div class="container is-narrow">
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <h1 class="title is-size-3-desktop is-size-4-tablet  has-text-centered is-size-5-mobile">My Articles</h1>
+        </div>
+      </div>
+      <div class="client-grid">
+        <div class="columns is-multiline is-mobile">
+          <div class="column">
+            <ngx-medium-widget resource="https://medium.com/@raj1996kamal" postsLimit="10" postsPerLine="1"
+            pictureSize="small" [postfields]="['description', 'author', 'claps']" postRatio="square">
+        </ngx-medium-widget>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

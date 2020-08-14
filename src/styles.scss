@@ -153,9 +153,50 @@ a.navbar-item, .navbar-link {
     }
 }
 
-/* Personal Website - SCSS version 1.1.5 Copyright 2020, Matt Farley www.mattfarley.ca */
-/*! tinyreset.css v0.1.0 | github.com/shankariyerr/tinyreset */
-@import url("https://use.typekit.net/ojv4ekx.css");
+/* Personal Website - SCSS version 1.1.5 Copyright 2020, https://rajkamal1996.github.io/rajkamal-portfolio */
+// @import url("https://use.typekit.net/ojv4ekx.css");
+
+
+@import url("https://p.typekit.net/p.css?s=1&k=ojv4ekx&ht=tk&f=15529.15530.25750.25753.25761.25763&a=8080773&app=typekit&e=css");
+
+@font-face {
+font-family:"europa";
+src:url("https://use.typekit.net/af/3e64fb/00000000000000003b9b12fe/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/3e64fb/00000000000000003b9b12fe/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/3e64fb/00000000000000003b9b12fe/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;
+}
+
+@font-face {
+font-family:"europa";
+src:url("https://use.typekit.net/af/4eabcf/00000000000000003b9b12fd/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/4eabcf/00000000000000003b9b12fd/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/4eabcf/00000000000000003b9b12fd/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"eurostile";
+src:url("https://use.typekit.net/af/e90c07/000000000000000000017994/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/e90c07/000000000000000000017994/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/e90c07/000000000000000000017994/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"eurostile";
+src:url("https://use.typekit.net/af/b30e05/000000000000000000017997/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/b30e05/000000000000000000017997/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/b30e05/000000000000000000017997/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"eurostile";
+src:url("https://use.typekit.net/af/986195/00000000000000000001799f/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("woff2"),url("https://use.typekit.net/af/986195/00000000000000000001799f/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("woff"),url("https://use.typekit.net/af/986195/00000000000000000001799f/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:800;
+}
+
+@font-face {
+font-family:"eurostile";
+src:url("https://use.typekit.net/af/0b81c7/0000000000000000000179a1/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/0b81c7/0000000000000000000179a1/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/0b81c7/0000000000000000000179a1/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:500;
+}
+
+.tk-europa { font-family: "europa",sans-serif; }
+.tk-eurostile { font-family: "eurostile",sans-serif; }
 a, abbr, acronym, address, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, ol, output, p, pre, q, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
@@ -4141,7 +4182,7 @@ hr { background-color: #E6ECF8; }
 
 @media screen and (min-width: 1216px) { .section.is-long-ish { padding-bottom: 14rem; } }
 
-.section p { margin-bottom: 2rem; }
+.section p { margin-bottom: 1rem; }
 
 .section.skills { margin-top: -14rem; padding-bottom: 1rem; }
 
